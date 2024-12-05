@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Clock and Date</title>
     <style>
-        @font-face {
+@font-face {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 100;
@@ -61,7 +61,7 @@
 }
         body {
             background-color: black;
-            color: white;
+            color: 333;
             font-family: "SF Pro Display", sans-serif;
             font-optical-sizing: auto;
             font-style: normal;
@@ -73,20 +73,20 @@
             margin: 0;
         }
         .clock {
-            font-size: 15vw; /* Font size scales with viewport width */
+            font-size: 18vw; /* Font size scales with viewport width */
             margin-bottom: 0rem;
-            font-weight: 600;
+            font-weight: 100;
         }
         .date {
             font-size: 4vw; /* Font size scales with viewport width */
-            font-weight: 400;
+            font-weight: 100;
         }
 
         .wlr {
             font-family: "SF Pro Display", sans-serif!important;
             font-optical-sizing: auto;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 300;
             position: absolute;
             top: 15px;
             right: 20px;
@@ -97,8 +97,8 @@
     <!-- Visit This URL https://sharpweather.com/widget/r/#c=cbkg=rgb(69,90,100)&c=codd=rgb(84,110,122) and edit your Weather Widget. Else, if you don't want it, delete or comment out this weather block. -->
 
   
-    <div id="id4167f8d5860c6" a='{"t":"r","v":"1.2","lang":"en","locs":[462],"ssot":"c","sics":"ms","cbkg":"#FFFFFF00","cfnt":"rgba(255,255,255,1)","codd":"#FFFFFF00","cont":"rgba(255,255,255,0.8313725490196079)","stof":"5"}'>Weather Data Source: <a href="https://sharpweather.com/weather_zagreb/30_days/">weather Zagreb 30 days</a></div><script async src="https://static1.sharpweather.com/widgetjs/?id=id4167f8d5860c6"></script>
- 
+    <!--<div id="id4167f8d5860c6" a='{"t":"r","v":"1.2","lang":"en","locs":[462],"ssot":"c","sics":"ms","cbkg":"#FFFFFF00","cfnt":"rgba(255,255,255,1)","codd":"#FFFFFF00","cont":"rgba(255,255,255,0.8313725490196079)","stof":"5"}'>Weather Data Source: <a href="https://sharpweather.com/weather_zagreb/30_days/">weather Zagreb 30 days</a></div><script async src="https://static1.sharpweather.com/widgetjs/?id=id4167f8d5860c6"></script>
+ -->
 
 
     <div class="clock" id="clock"></div>
